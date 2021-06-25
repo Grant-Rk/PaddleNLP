@@ -49,6 +49,7 @@ METRIC_CLASSES = {
     "mnli": Accuracy,
     "qnli": Accuracy,
     "rte": Accuracy,
+    "chnsenticorp": Accuracy,
 }
 
 MODEL_CLASSES = {
@@ -56,6 +57,7 @@ MODEL_CLASSES = {
     "electra": (ElectraForSequenceClassification, ElectraTokenizer),
     "ernie": (ErnieForSequenceClassification, ErnieTokenizer),
     "albert": (AlbertForSequenceClassification, AlbertTokenizer),
+    "ernie-gram": (ErnieGramForSequenceClassification, ErnieGramTokenizer),
 }
 
 
